@@ -1,0 +1,139 @@
+---
+title: "template_write_abstract"
+author: "maurolepore@gmail.com"
+date: "21 July 2016"
+output: html_document
+---
+
+# Note to readers/editors
+
+To suggest changes please click the **edit** icon (pencil at the top-right) at: https://github.com/maurolepore/backlight/blob/master/backlight_paper.Rmd
+
+Comments are highlighted _{like this}_
+
+# Note to myself
+
+All text with the comments format can be automatically selected in word, then highlighted with colour to make it more visible, and then converted manyually in to comments as I read through the text.
+
+See useful defaults for knitr at: 
+
+http://r4ds.had.co.nz/r-markdown.html
+
+    + Chunk options
+    + Global options
+
+- http://r4ds.had.co.nz/graphics-for-communication.html
+
+    + Figure sizing
+    + Other important options
+
+For example:
+
+```R
+set.seed(1014)
+options(digits = 3)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  cache = TRUE,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
+
+
+
+# Abstract
+
+`[Why did you do it? (50 words) ]`
+
+`[What did you do? (50 words) ]`
+
+`[What happened [when you did that]? (50 words) ]` 
+
+`[What do the results mean in theory? (50 words) ]`  
+
+`[What do the results mean in practice? (50 words)]` 
+
+`[What is the key benefit for readers? (25 words)]`  
+
+`[What remains unresolved? (no word limit)]`
+
+# Introduction
+
+`[Guidelines from nature: http://www.nature.com/scitable/topicpage/scientific-papers-13815490]`  
+
+
+
+## Context and Need
+
+`[Context and need.     At the beginning of the Introduction section, the context and need work together as a funnel: They start broad and progressively narrow down to the issue addressed in the paper. To spark interest among your audience — referees and journal readers alike — provide a compelling motivation for the work presented in your paper: The fact that a phenomenon has never been studied before is not, in and of itself, a reason to study that phenomenon.]`  
+
+
+
+### Context
+
+`[First, provide some context to orient those readers who are less familiar with your topic and to establish the importance of your work]`  
+
+`[Write the context in a way that appeals to a broad range of readers and leads into the need. Do not include context for the sake of including context: Rather, provide only what will help readers better understand the need and, especially, its importance. Consider anchoring the context in time, using phrases such as recently, in the past 10 years, or since the early 1990s. You may also want to anchor your context in space (either geographically or within a given research field).]`
+
+
+
+### Need
+
+`[Second, state the need for your work, as an opposition between what the scientific community currently has and what it wants.]`  
+
+`[Convey the need for the work as an opposition between actual and desired situations. Start by stating the actual situation (what we have) as a direct continuation of the context. If you feel you must explain recent achievements in much detail — say, in more than one or two paragraphs — consider moving the details to a section titled State of the art (or something similar) after the Introduction, but do provide a brief idea of the actual situation in the Introduction.]`  
+
+`[Next, state the desired situation (what we want). Emphasize the contrast between the actual and desired situations with such words as but, however, or unfortunately.]`
+
+`[One elegant way to express the desired part of the need is to combine it with the task in a single sentence. This sentence expresses first the objective, then the action undertaken to reach this objective, thus creating a strong and elegant connection between need and task.]`
+
+
+
+
+
+## Task and Object
+
+`[ Third, indicate what you have done in an effort to address the need (this is the task).]`  
+
+`[Task and object.     An Introduction is usually clearer and more logical when it separates what the authors have done (the task) from what the paper itself attempts or covers (the object of the document). In other words, the task clarifies your contribution as a scientist, whereas the object of the document prepares readers for the structure of the paper, thus allowing focused or selective reading.]`
+
+
+
+### Task
+
+`[For the task, (a) use whoever did the work (normally, you and your colleagues) as the subject of the sentence: we or perhaps the authors; (b) use a verb expressing a research action: measured, calculated, etc.; (c) set that verb in the past tense]` 
+
+
+
+#### State the need and the task combined
+
+
+
+### Object
+
+`[Finally, preview the remainder of the paper to mentally prepare readers for its structure, in the object of the document]`  
+
+`[For the object of the document, (a) use the document itself as the subject of the sentence: this paper, this letter, etc.; (b) use a verb expressing a communication action: presents, summarizes, etc.; (c) set the verb in the present tense.]`  
+
+
+
+# Conclusion
+
+## Discussion and Conclusion
+
+[Guidelines](http://www.nature.com/scitable/topicpage/scientific-papers-13815490)
+
+## Conclusion
+
+[Example](http://www.nature.com/scitable/resource?action=showFullImageForTopic&imgSrc=content/ne0000/ne0000/ne0000/ne0000/14031994/ECS-01-08-01-Conclusion.pdf&isPDF=yes)
+
+### `The first paragraph tells readers the overall messages they should take away. With each sentence, it makes a clear, direct statement.`
+
+### `The second paragraph broadens the above conclusion by putting the achievement into perspective. It compares the work presented to related work in other domanins, indicates the work's significance and anticipates on future results.`
